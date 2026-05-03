@@ -1,6 +1,13 @@
 
-# Playwright
+# Dependencias
 node_modules/
+
+# Variables de entorno (nunca commitear secretos)
+.env
+.env.local
+.env.*.local
+
+# Playwright
 /test-results/
 /playwright-report/
 /blob-report/
